@@ -1,0 +1,80 @@
+cancel:
+  examples:
+    - summary: cancel
+      description: TBD
+      value:
+        $ref: ./cancel/cancel_cancel.yaml
+confirm:
+  examples:
+    - summary: confirm
+      description: TBD
+      value:
+        $ref: ./confirm/confirm_confirm.yaml
+init:
+  examples:
+    - summary: init-request info
+      description: TBD
+      value:
+        $ref: ./init/init_init-request_info.yaml
+on_cancel:
+  examples:
+    - summary: on_cancel
+      description: TBD
+      value:
+        $ref: ./on_cancel/on_cancel_on_cancel.yaml
+on_confirm:
+  examples:
+    - summary: on_confirm
+      description: TBD
+      value:
+        $ref: ./on_confirm/on_confirm_on_confirm.yaml
+on_init:
+  examples:
+    - summary: on_init-request
+      description: TBD
+      value:
+        $ref: ./on_init/on_init_on_init-request.yaml
+on_search:
+  examples:
+    - summary: on_search
+      description: TBD
+      value:
+        $ref: ./on_search/on_search_on_search.yaml
+on_select:
+  examples:
+    - summary: on_select-request-aadhar-kyc
+      description: TBD
+      value:
+        $ref: ./on_select/on_select_on_select-request-aadhar-kyc.yaml
+    - summary: on_select-additional-info
+      description: TBD
+      value:
+        $ref: ./on_select/on_select_on_select-additional-info.yaml
+on_status:
+  examples:
+    - summary: on_status
+      description: TBD
+      value:
+        $ref: ./on_status/on_status_on_status.yaml
+search:
+  examples:
+    - summary: search
+      description: TBD
+      value:
+        $ref: ./search/search_search.yaml
+select:
+  examples:
+    - summary: select-request-aadhar-kyc info
+      description: TBD
+      value:
+        $ref: ./select/select_select-request-aadhar-kyc_info.yaml
+    - summary: select-request-additional-info
+      description: TBD
+      value:
+        $ref: ./select/select_select-request-additional-info.yaml
+status:
+  examples:
+    - summary: status
+      description: TBD
+      value:
+        $ref: ./status/status_status.yaml

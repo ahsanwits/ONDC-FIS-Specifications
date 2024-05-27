@@ -1,0 +1,100 @@
+confirm:
+  examples:
+    - summary: confirm
+      description: TBD
+      value:
+        $ref: ./confirm/confirm_confirm.yaml
+init:
+  examples:
+    - summary: init-request-personal
+      description: TBD
+      value:
+        $ref: ./init/init_init-request-personal.yaml
+    - summary: init-request-vehicle-nominee
+      description: TBD
+      value:
+        $ref: ./init/init_init-request-vehicle-nominee.yaml
+on_confirm:
+  examples:
+    - summary: on_confirm
+      description: TBD
+      value:
+        $ref: ./on_confirm/on_confirm_on_confirm.yaml
+on_init:
+  examples:
+    - summary: on_init-request-personal-info
+      description: TBD
+      value:
+        $ref: ./on_init/on_init_on_init-request-personal-info.yaml
+    - summary: on_init-request-vehicle-info
+      description: TBD
+      value:
+        $ref: ./on_init/on_init_on_init-request-vehicle-info.yaml
+on_search:
+  examples:
+    - summary: on_search
+      description: TBD
+      value:
+        $ref: ./on_search/on_search_on_search.yaml
+    - summary: on_search-request-multi-offer
+      description: TBD
+      value:
+        $ref: ./on_search/on_search_on_search-request-multi-offer.yaml
+on_select:
+  examples:
+    - summary: on_select-request-pan
+      description: TBD
+      value:
+        $ref: ./on_select/on_select_on_select-request-pan.yaml
+    - summary: on_select-request-personal-info
+      description: TBD
+      value:
+        $ref: ./on_select/on_select_on_select-request-personal-info.yaml
+    - summary: on_select-request-manual-review
+      description: TBD
+      value:
+        $ref: ./on_select/on_select_on_select-request-manual-review.yaml
+on_status:
+  examples:
+    - summary: on_status
+      description: TBD
+      value:
+        $ref: ./on_status/on_status_on_status.yaml
+on_update:
+  examples:
+    - summary: on_update_fulfilment
+      description: TBD
+      value:
+        $ref: ./on_update/on_update_on_update_fulfilment.yaml
+search:
+  examples:
+    - summary: search
+      description: TBD
+      value:
+        $ref: ./search/search_search.yaml
+    - summary: search-request-multi-offer
+      description: TBD
+      value:
+        $ref: ./search/search_search-request-multi-offer.yaml
+select:
+  examples:
+    - summary: select-request-vehicle-info
+      description: TBD
+      value:
+        $ref: ./select/select_select-request-vehicle-info.yaml
+    - summary: select-request-pan-info
+      description: TBD
+      value:
+        $ref: ./select/select_select-request-pan-info.yaml
+status:
+  examples:
+    - summary: status
+      description: TBD
+      value:
+        $ref: ./status/status_status.yaml
+update:
+  examples:
+    - summary: update
+      description: TBD
+      value:
+        $ref: ./update/update_update.yaml
